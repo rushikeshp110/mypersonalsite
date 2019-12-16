@@ -105,7 +105,9 @@ margin: 30px;
   bottom: 300px;
 }
 .propic{
-  width: 200px 200px 200px 200px;
+  width:15rem;
+  padding-top: 1.5rem;
+
 }
 hr{
   border-style:dotted none none;
@@ -139,4 +141,12 @@ hr{
 .btn:active {
 	position:relative;
 	top:1px;
+}
+@media(max-width: 1028px) {
+  .footer-link{
+    font-size: 2rem;
+  }
+  .copright{
+    font-size: 500%;
+  }
 }
